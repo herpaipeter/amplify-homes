@@ -12,12 +12,6 @@
       "AmplifyAppId": "d3sl7ieuf256w5"
     },
     "categories": {
-      "function": {
-        "amplifyHomeAddPicture": {
-          "deploymentBucketName": "amplify-amplifyhomes-devn-91515-deployment",
-          "s3Key": "amplify-builds/amplifyHomeAddPicture-534d634a707771495553-build.zip"
-        }
-      },
       "api": {
         "amplifyhomes": {}
       }
