@@ -21,5 +21,30 @@
       "providerPlugin": "awscloudformation",
       "service": "AppSync"
     }
+  },
+  "function": {
+    "amplifyHomeAddPicture": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_amplifyHomeAddPicture_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifyHomeAddPicture"
+        }
+      ]
+    },
+    "AMPLIFY_function_amplifyHomeAddPicture_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifyHomeAddPicture"
+        }
+      ]
+    }
   }
 }

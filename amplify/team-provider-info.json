@@ -10,6 +10,17 @@
       "StackName": "amplify-amplifyhomes-devn-91515",
       "StackId": "arn:aws:cloudformation:eu-central-1:673927638007:stack/amplify-amplifyhomes-devn-91515/72942e40-1fcb-11ee-8fc5-0213227874ba",
       "AmplifyAppId": "d3sl7ieuf256w5"
+    },
+    "categories": {
+      "function": {
+        "amplifyHomeAddPicture": {
+          "deploymentBucketName": "amplify-amplifyhomes-devn-91515-deployment",
+          "s3Key": "amplify-builds/amplifyHomeAddPicture-534d634a707771495553-build.zip"
+        }
+      },
+      "api": {
+        "amplifyhomes": {}
+      }
     }
   },
   "staging": {
